@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Database and Secrets (CRITICAL)
+*.db
+salt.key
+*.sqlite3
+
+# Backups and Logs
+backup/
+*.log
+.DS_Store
